@@ -16,6 +16,7 @@
 
 ### 3. Instalar Node.js e npm
 Instalação na pasta .local da home
+
 **Lembrar de substituir o link da linha 5 pela [versão mais recente](https://nodejs.org/en/download/)**
 ```
 cd ~
@@ -30,6 +31,7 @@ ln -s ../node/latest/bin/node
 ln -s ../node/latest/bin/npm
 ```
 Caso já não esteja configurado no arquivo `~/.profile`, adicione
+
 `export PATH=$HOME/.local/bin:$PATH` ao arquivo `~/.bashrc`
 
 ### 4. Instalar PHP e MySQL
@@ -41,8 +43,13 @@ Caso já não esteja configurado no arquivo `~/.profile`, adicione
 
 ### 6. Limpeza geral
 Remoção de pacotes que não foram instalados completamente
+
 `sudo apt-get autoclean`
+
 Remoção do apt-cache
+
 `sudo apt-get clean`
+
 Remoção de dependências indesejadas
+
 `sudo apt-get autoremove`
