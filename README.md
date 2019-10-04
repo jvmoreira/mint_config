@@ -77,6 +77,7 @@ sudo chmod 755 composer
     - File Icons
     - Tree View Auto Resize
     - Highlight Selected
+    - Tab Length
     - Language Vue
 
 ### 6. Limpeza geral
